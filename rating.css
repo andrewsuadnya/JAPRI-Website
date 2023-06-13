@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.rating-form {
+  font-family: Arial, sans-serif;
+  width: 425px;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 60px;
+  box-shadow: 20px 15px 13px #0003;
+}
+
+.rating-form h2 {
+  font-size: 35px;
+  text-shadow: 1px 4px 5px #999;
+}
+
+.stars input[type="radio"] {
+  display: none;
+}
+
+.stars label {
+  font-size: 75px;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+  float: right;
+  margin: 0px 0px 0px 0px;
+}
+
+.stars label:hover,
+.stars input[type="radio"]:checked ~ label {
+  color: #ffcc00;
+  transition: 1.5s;
+}
+
+.stars label:hover ~ label,
+.stars input[type="radio"]:checked ~ label ~ label {
+  color: #ffcc00;
+  transition: 1.5s;
+}
+
+label {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  background-color: #f2f2f2;
+  margin: 10px 0 10px 0;
+}
+
+button {
+  background-color: #858585;
+  color: white;
+  padding: 10px 50px;
+  margin-bottom: -10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+footer {
+  width: 77%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top-right-radius: 55% 165px;
+  border-style: solid;
+  background-color: #dae7f9;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover{
+  color: #000dffec;
+}
+
+footer .icon {
+  text-align: center;
+  line-height: 0;
+  font-size: 25px;
+}
+
+footer .icon p{
+  margin-top: 23px;
+}
+
+footer .icon i {
+  font-size: 45px;
+}
+
+footer .container .col-6 {
+  float: left;
+  padding-left: 75px;
+}
+
+.logo {
+  position: absolute;
+  bottom: -65px;
+  right: 70px;
+  width: 250px;
+  height: 250px;
+}

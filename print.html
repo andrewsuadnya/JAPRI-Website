@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPRI</title>
+    <link rel="stylesheet" href="print.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="/path/to/font/Fontspring-DEMO-theseasons-reg.ttf" rel="stylesheet">
+</head>
+<body style="font-family: 'Fontspring-DEMO-theseasons-reg';">
+
+    <!--dp kertas-->
+    <div class="contain">
+        <div class="kertas">
+            <div class="col-3">
+                <div class="a5"><img src="img/A5(1).png" alt="gambar A5">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="a4"><img src="img/A4(1).png" alt="gambar A5"></div>
+            </div>
+            <div class="col-3">
+                <div class="f4"><img src="img/F4(1).png" alt="gambar A5"></div> 
+            </div>
+        </div>
+
+        <!--tombol-->
+        <div class="tombol">
+            <div class="col-3 kiri">
+                <div class="plus">
+                    <button class="kurang" onclick="kurang1()"> <img src="img/minus.png" alt="minus"></button>
+                    <span id="count1">0</span>
+                    <button class="tambah" onclick="tambah1()"> <img src="img/Plus.png" alt="plus"></button>
+                </div>
+            </div>
+            <div class="col-3 tengah">
+                <div class="plus">
+                    <button onclick="kurang2()"> <img src="img/minus.png" alt="minus"></button>
+                    <span id="count2">0</span>
+                    <button onclick="tambah2()"> <img src="img/Plus.png" alt="plus"></button>
+                </div>
+            </div>
+            <div class="col-3 kanan">
+                <div class="plus">
+                    <button onclick="kurang3()"> <img src="img/minus.png" alt="minus"></button>
+                    <span id="count3">0</span>
+                    <button onclick="tambah3()"> <img src="img/Plus.png" alt="plus"></button>
+                </div>
+            </div>
+    </div>
+
+    <!--submit file-->
+    <div class="contain">
+        <div class="submit">
+            <a href="upload.html">
+            <button>Upload File</button>
+            </a>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <footer>
+            <div class="container">
+                <div class="col-6">
+                    <a href="home.html" class="icon">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="print.html" class="icon">
+                        <i class="fa-solid fa-print"></i>
+                        <p>Print</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="users.php" class="icon">
+                        <i class="fa-solid fa-comments"></i>
+                        <p>ChatUs</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="rating.html" class="icon">
+                        <i class="fa-solid fa-star"></i>
+                        <p>Rating</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="AboutUs.html" class="icon">
+                        <i class="fa-solid fa-users"></i>
+                        <p>AboutUs</p>
+                    </a>
+                </div>
+            </div>
+    </footer>
+    <img src="img/logo10.png" alt="logo" class="logo">
+    <script src="print.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.contain {
+  flex-direction: column;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kertas {
+  gap: 100px;
+  width: fit-content;
+  justify-content: center;
+  height: 394px;
+  align-items: end;
+  display: flex;
+}
+
+.kertas img {
+  animation: melayang 0s;
+  transition: 1s;
+}
+
+.kertas img:hover {
+  box-shadow: 10px 10px 10px grey;
+}
+
+@keyframes melayang {
+  0% {
+    transform: translate(10px, 24px);
+  }
+}
+
+.col-3 .a5 img {
+  width: 140px;
+  height: 229px;
+  border: 3px solid;
+}
+
+.col-3 .a4 img {
+  width: 171px;
+  height: 290px;
+  border: 3px solid;
+}
+
+.col-3 .f4 img {
+  width: 205px;
+  height: 344px;
+  border: 3px solid;
+}
+
+.contain .kertas .col-3 {
+  float: left;
+}
+
+.tombol {
+  width: 100%;
+  justify-content: center;
+  align-items: end;
+  display: flex;
+  float: left;
+  font-size: 18px;
+}
+
+.tombol button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.tombol .kanan {
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+.tombol .tengah {
+  padding-right: 100px;
+}
+
+.tombol .kiri {
+  padding-right: 145px;
+}
+
+.col-3 .plus {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.col-3 .plus img {
+  width: 20px;
+  height: 20px;
+}
+
+.tulisan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.submit {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+  margin-right: 70px;
+}
+
+.submit p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.submit button {
+  border-radius: 108px 108px 108px 108px;
+  border: 10px #00c4cc;
+  /* border-color: #00c4cc; */
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+}
+
+footer {
+  width: 77%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top-right-radius: 55% 165px;
+  border-style: solid;
+  background-color: #dae7f9;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover{
+  color: #000dffec;
+}
+
+footer .icon {
+  text-align: center;
+  line-height: 0;
+  font-size: 25px;
+}
+
+footer .icon p{
+  margin-top: 23px;
+}
+
+footer .icon i {
+  font-size: 45px;
+}
+
+footer .container .col-6 {
+  float: left;
+  padding-left: 75px;
+}
+
+.logo {
+  position: absolute;
+  bottom: -65px;
+  right: 70px;
+  width: 250px;
+  height: 250px;
+}

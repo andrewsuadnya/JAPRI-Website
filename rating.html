@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPRI</title>
+    <link rel="stylesheet" href="rating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="/path/to/font/Fontspring-DEMO-theseasons-reg.ttf" rel="stylesheet">
+</head>
+
+<body>
+    <div class="rating-form">
+        <h2>Berikan Ulasan Anda</h2>
+        <form action="" method="post">
+        <div class="stars">
+          <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Sangat Bagus"><i class="fas fa-star"></i></label>
+          <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Bagus"><i class="fas fa-star"></i></label>
+          <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Cukup"><i class="fas fa-star"></i></label>
+          <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Buruk"><i class="fas fa-star"></i></label>
+          <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sangat Buruk"><i class="fas fa-star"></i></label>
+        </div>
+        <label for="review">Tinggalkan catatan anda!</label>
+        <textarea id="review" name="review" rows="8" cols="50"></textarea>
+        <button onclick="submitRating()">Submit</button>
+      </div>
+
+    <!--footer-->
+    <footer>
+            <div class="container">
+                <div class="col-6">
+                    <a href="home.html" class="icon">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="print.html" class="icon">
+                        <i class="fa-solid fa-print"></i>
+                        <p>Print</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="users.php" class="icon">
+                        <i class="fa-solid fa-comments"></i>
+                        <p>ChatUs</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="rating.html" class="icon">
+                        <i class="fa-solid fa-star"></i>
+                        <p>Rating</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="AboutUs.html" class="icon">
+                        <i class="fa-solid fa-users"></i>
+                        <p>AboutUs</p>
+                    </a>
+                </div>
+            </div>
+    </footer>
+    <img src="img/logo10.png" alt="logo" class="logo">
+    <script src="rating.js"></script>
+</body>
+</html>
