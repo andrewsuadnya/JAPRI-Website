@@ -25,6 +25,7 @@ The JAPRI website is designed to offer printing services online. It provides a c
 
 The website features a navigation bar with links to various sections:
 
+- **Login**: Allows users to log in to their accounts for access to personalized features.
 - **Home**: Takes users to the homepage.
 - **Print**: Directs users to the printing services page.
 - **ChatUs**: Provides a link to a chat feature for customer support.
