@@ -27,12 +27,49 @@ The JAPRI website is designed to offer printing services online. It provides a c
 
 The website features a navigation bar with links to various sections:
 
+- **SignUp**: Directs users to the signup page for creating a new account and accessing additional features.
 - **Login**: Allows users to log in to their accounts for access to personalized features.
 - **Home**: Takes users to the homepage.
 - **Print**: Directs users to the printing services page.
 - **ChatUs**: Provides a link to a chat feature for customer support.
 - **Rating**: Leads users to the rating page for feedback submission.
 - **AboutUs**: Navigates users to the About Us section to learn more about the company.
+
+<div style="display:flex;">
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr1.png" alt="Gambar 0" style="width:100%;">
+    </div>
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr2.png" alt="Gambar 5" style="width:100%;">
+    </div>
+</div>
+<div style="display:flex;">
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr3.png" alt="Gambar 1" style="width:100%;">
+    </div>
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr4.png" alt="Gambar 2" style="width:100%;">
+    </div>
+</div>
+<div style="display:flex;">
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr5.png" alt="Gambar 3" style="width:100%;">
+    </div>
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr6.png" alt="Gambar 4" style="width:100%;">
+    </div>
+</div>
+<div style="display:flex;">
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr7.png" alt="Gambar 6" style="width:100%;">
+    </div>
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr8.png" alt="Gambar 4" style="width:100%;">
+    </div>
+    <div style="flex:50%; padding:5px;">
+        <img src="img/gmbr9.png" alt="Gambar 4" style="width:100%;">
+    </div>
+</div>
 
 ## Footer Links
 
