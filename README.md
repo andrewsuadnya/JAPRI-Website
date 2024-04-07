@@ -20,6 +20,8 @@ The JAPRI website is designed to offer printing services online. It provides a c
 - CSS3
 - Font Awesome 6.4.0
 - JavaScript
+- PHP
+- MySQL
 
 ## Navigation
 
