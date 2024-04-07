@@ -42,6 +42,12 @@ The footer section contains quick access links to different pages of the website
 
 The website displays the JAPRI logo at the bottom, providing branding consistency throughout the site.
 
+**Website Link**
+
+You can access the JAPRI website by following this link: [JAPRI Website](https://japrint.000webhostapp.com/)
+
+Feel free to explore the website to learn more about its features and services.
+
 ---
 
 © 2023 JAPRI
